@@ -32,7 +32,7 @@ Este manual é um ponto de partida. Ele organiza princípios simples para pensar
 
 ## Capítulo 1: A IA muda o custo de produzir respostas {#chapter-1}
 
-![Uma mesa acolhedora com um notebook e vários cartões abstratos de resposta.](assets/images/chapters/01-answers.svg)
+![Uma mesa acolhedora com um notebook e vários cartões abstratos de resposta.](assets/images/chapters/01-answers-generated.png)
 
 A IA reduz o custo de gerar texto, imagens, código, planos e variações. Isso não significa que toda resposta gerada seja correta, útil ou ética.
 

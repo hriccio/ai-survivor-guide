@@ -32,7 +32,7 @@ This manual is a starting point. It organizes simple principles for thinking abo
 
 ## Chapter 1: AI changes the cost of producing answers {#chapter-1}
 
-![A warm desk with a laptop and many abstract answer cards.](assets/images/chapters/01-answers.svg)
+![A warm desk with a laptop and many abstract answer cards.](assets/images/chapters/01-answers-generated.png)
 
 AI lowers the cost of generating text, images, code, plans, and variations. That does not mean every generated answer is correct, useful, or ethical.
 
