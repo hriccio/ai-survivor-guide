@@ -136,5 +136,11 @@ img.cover-image {
 .metadata {
   color: #8a7a69;
   font-size: 10pt;
-  margin-bottom: 12mm;
+  line-height: 1.38;
+  margin: -1mm 0 7mm;
+}
+
+.metadata p {
+  margin: 0;
+  text-indent: 0;
 }
