@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Support without dependence</title>
+  <desc id="desc">A notebook, compass, and small assistant device on a bright desk.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fffdf8"/><stop offset="1" stop-color="#edf5f1"/></linearGradient><filter id="soft"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#725d4a" flood-opacity=".14"/></filter></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="150" y="635" width="1300" height="82" rx="41" fill="#d8b88d" opacity=".5"/>
+  <g filter="url(#soft)">
+    <rect x="290" y="285" width="500" height="330" rx="30" fill="#fffdf8"/>
+    <rect x="870" y="305" width="300" height="250" rx="36" fill="#e7f0eb"/>
+    <circle cx="1270" cy="430" r="96" fill="#fff8e9"/>
+  </g>
+  <g fill="none" stroke="#a66d4c" stroke-linecap="round" stroke-width="12" opacity=".48">
+    <path d="M350 370h350"/><path d="M350 440h285"/><path d="M350 510h325"/>
+  </g>
+  <circle cx="1020" cy="430" r="54" fill="#fffdf8"/>
+  <path d="M1020 430l58-34-28 70z" fill="#8da79a"/>
+  <path d="M1230 430h80M1270 390v80" stroke="#8da79a" stroke-width="12" stroke-linecap="round"/>
+</svg>

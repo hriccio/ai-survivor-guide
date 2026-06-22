@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Context as advantage</title>
+  <desc id="desc">A cozy table with a map, notes, and a softly glowing conversation window.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#fffdf8"/><stop offset="1" stop-color="#eef5f4"/></linearGradient><filter id="soft"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#725d4a" flood-opacity=".14"/></filter></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="140" y="625" width="1320" height="92" rx="46" fill="#d8b88d" opacity=".5"/>
+  <g filter="url(#soft)">
+    <rect x="235" y="250" width="430" height="330" rx="32" fill="#fffdf8"/>
+    <path d="M300 330c88 34 140-52 256-10 42 16 58 54 52 94-77 6-103 70-185 54-62-12-104-55-160-14-23-44-7-93 37-124z" fill="#dce9e4"/>
+    <rect x="830" y="220" width="515" height="390" rx="36" fill="#fffdf8"/>
+  </g>
+  <g fill="#f4d8b2"><rect x="885" y="285" width="180" height="72" rx="18"/><rect x="1110" y="382" width="180" height="72" rx="18"/></g>
+  <g fill="#dce9e4"><rect x="935" y="475" width="230" height="72" rx="18"/><circle cx="1230" cy="310" r="34"/></g>
+  <g fill="none" stroke="#8da79a" stroke-width="12" stroke-linecap="round" opacity=".55">
+    <path d="M900 325h120"/><path d="M1130 420h118"/><path d="M965 512h155"/>
+  </g>
+  <circle cx="710" cy="415" r="13" fill="#a66d4c" opacity=".55"/>
+  <path d="M710 415c48-70 95-94 152-104" fill="none" stroke="#a66d4c" stroke-width="10" stroke-linecap="round" opacity=".38"/>
+</svg>

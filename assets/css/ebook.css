@@ -46,7 +46,8 @@ h2[id^="chapter-"] {
 }
 
 h2#introduction,
-h2#table-of-contents {
+h2#table-of-contents,
+h2#closing {
   break-before: page;
   margin-top: 0;
 }
