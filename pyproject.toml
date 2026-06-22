@@ -1,0 +1,14 @@
+[project]
+name = "ai-survivor-guide"
+version = "0.1.0"
+description = "Markdown-to-PDF ebook publishing pipeline for AI era pocket guides."
+requires-python = ">=3.11"
+dependencies = [
+  "Markdown==3.6",
+  "WeasyPrint==62.3",
+  "pydyf==0.11.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

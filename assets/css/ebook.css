@@ -1,0 +1,80 @@
+@page {
+  size: A4;
+  margin: 24mm 20mm 26mm;
+
+  @bottom-center {
+    color: #6b6258;
+    content: string(book-title) " · " counter(page);
+    font-size: 9pt;
+  }
+}
+
+:root {
+  color: #241f1a;
+  background: #fffaf2;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 12pt;
+  line-height: 1.55;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  string-set: book-title content();
+  border-bottom: 2px solid #241f1a;
+  font-size: 30pt;
+  line-height: 1.05;
+  margin: 0 0 12mm;
+  padding-bottom: 6mm;
+}
+
+h2 {
+  break-after: avoid;
+  font-size: 18pt;
+  line-height: 1.2;
+  margin: 12mm 0 4mm;
+}
+
+h3 {
+  break-after: avoid;
+  font-size: 14pt;
+  margin: 8mm 0 3mm;
+}
+
+p {
+  margin: 0 0 4.5mm;
+}
+
+ol,
+ul {
+  margin: 0 0 5mm 7mm;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 2mm;
+}
+
+blockquote {
+  border-left: 3px solid #a45b37;
+  color: #4a4038;
+  font-size: 13pt;
+  margin: 8mm 0;
+  padding: 2mm 0 2mm 5mm;
+}
+
+code {
+  background: #f0e7da;
+  border-radius: 2px;
+  font-family: "Courier New", monospace;
+  font-size: 10pt;
+  padding: 0 2px;
+}
+
+.metadata {
+  color: #6b6258;
+  font-size: 10pt;
+  margin-bottom: 12mm;
+}
