@@ -29,10 +29,16 @@ jobs:
       - name: Build PDFs
         run: python scripts/build_pdf.py --version "$GITHUB_REF_NAME"
 
+      - name: Prepare release assets
+        run: |
+          mkdir -p release-assets
+          find dist -maxdepth 1 -type f -name '*.pdf' -exec cp {} release-assets/ \;
+          test "$(find release-assets -maxdepth 1 -type f -name '*.pdf' | wc -l)" -gt 0
+
       - name: Create GitHub Release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "$GITHUB_REF_NAME" dist/*.pdf \
+          gh release create "$GITHUB_REF_NAME" release-assets/*.pdf \
             --title "$GITHUB_REF_NAME" \
             --notes "AI Era ebook release $GITHUB_REF_NAME"
