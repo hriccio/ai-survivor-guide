@@ -138,7 +138,7 @@ You do not need to become the final decision-maker immediately. But you should m
 
 ## Do not compete with machines at machine things {#chapter-6}
 
-![A warm desk scene separating repeated cards from one focused decision notebook.](assets/images/chapters/06-machine-things.svg)
+![A warm desk scene contrasting repeated cards on a machine path with one focused decision notebook.](assets/images/chapters/06-machine-things-generated.png)
 
 **Pocket relief:** You do not win by becoming a slower machine. Let machines do machine work, and protect your energy for responsibility, context, taste, priority, and direction.
 

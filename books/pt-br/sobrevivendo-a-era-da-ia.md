@@ -138,7 +138,7 @@ Você não precisa virar a pessoa decisora final imediatamente. Mas deve se apro
 
 ## Não compita com máquinas em coisas de máquina {#chapter-6}
 
-![Uma cena de mesa acolhedora separando cartões repetidos de um caderno de decisão focada.](assets/images/chapters/06-machine-things.svg)
+![Uma mesa acolhedora contrastando cartões repetidos em um caminho de máquina com um caderno de decisão focada.](assets/images/chapters/06-machine-things-generated.png)
 
 **Alívio de bolso:** Você não vence virando uma máquina mais lenta. Deixe máquinas fazerem coisas de máquina e preserve sua energia para responsabilidade, contexto, gosto, prioridade e direção.
 
