@@ -210,7 +210,7 @@ Depois que você entende o mapa, especialização vira escolha, não resposta de
 
 ## O valor humano migra {#chapter-10}
 
-![Um caminho acolhedor de cartões indo de tarefas fáceis para um novo ponto difícil.](assets/images/chapters/10-human-value.svg)
+![Um caminho acolhedor de cartões indo de tarefas repetidas para um novo ponto de valor humano.](assets/images/chapters/10-human-value-generated.png)
 
 **Alívio de bolso:** O ponto não é que o valor humano desaparece. A tecnologia muda onde o valor aparece, então sua tarefa é observar para onde a dificuldade está indo.
 

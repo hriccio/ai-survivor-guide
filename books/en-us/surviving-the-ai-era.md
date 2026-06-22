@@ -210,7 +210,7 @@ Once you have the map, specialization becomes a choice instead of a panic respon
 
 ## Human value migrates {#chapter-10}
 
-![A warm path of cards moving from easy tasks toward a new difficult point.](assets/images/chapters/10-human-value.svg)
+![A warm path of cards moving from repeated tasks toward a new human value point.](assets/images/chapters/10-human-value-generated.png)
 
 **Pocket relief:** The point is not that human value disappears. Technology changes where value appears, so your task is to watch where the difficulty moves.
 
