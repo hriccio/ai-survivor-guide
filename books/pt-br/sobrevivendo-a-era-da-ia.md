@@ -84,7 +84,7 @@ Isso pode parecer ameaçador, mas também pode ser útil. Quando você enxerga a
 
 ## A economia não tem sentimentos {#chapter-3}
 
-![Uma mesa acolhedora com cartões de custo, uma balança e uma linha sutil de pressão ascendente.](assets/images/chapters/03-economics.svg)
+![Uma mesa acolhedora com cartões abstratos de custo, uma balança e uma linha sutil de pressão ascendente.](assets/images/chapters/03-economics-generated.png)
 
 **Alívio de bolso:** Você não precisa gostar de toda tendência de automação para entendê-la. Enxergar a pressão econômica com clareza ajuda você a se preparar sem confundir preparação com aprovação.
 

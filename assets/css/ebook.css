@@ -67,6 +67,10 @@ p + p {
   text-indent: 6mm;
 }
 
+h2#introduction + p {
+  text-indent: 6mm;
+}
+
 p:has(> strong:first-child) {
   background: #fff4df;
   border: 1px solid #ead7bd;

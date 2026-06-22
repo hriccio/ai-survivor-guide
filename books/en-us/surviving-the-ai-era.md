@@ -84,7 +84,7 @@ That can feel threatening, but it can also be useful. Once you see repetition cl
 
 ## Economics has no feelings {#chapter-3}
 
-![A warm desk with cost cards, a scale, and a quiet upward pressure line.](assets/images/chapters/03-economics.svg)
+![A warm desk with abstract cost cards, a scale, and a quiet upward pressure line.](assets/images/chapters/03-economics-generated.png)
 
 **Pocket relief:** You do not have to like every automation trend to understand it. Seeing the economic pressure clearly helps you prepare without confusing preparation with approval.
 
