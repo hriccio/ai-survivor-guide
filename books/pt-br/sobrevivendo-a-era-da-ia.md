@@ -66,7 +66,7 @@ Se a maior parte do seu valor está em repetir uma sequência, você está expos
 
 ## A automação segue a repetição {#chapter-2}
 
-![Um espaço de trabalho acolhedor onde cartões de fluxo aparecem perto de mapas e calendários.](assets/images/chapters/02-context.svg)
+![Um espaço de trabalho acolhedor onde cartões repetidos seguem um caminho de automação perto de um mapa e calendário.](assets/images/chapters/02-automation-repetition.png)
 
 **Alívio de bolso:** Você não precisa prever cada avanço da IA. Comece observando a repetição, porque a repetição costuma ser o caminho por onde a tecnologia entra no trabalho.
 

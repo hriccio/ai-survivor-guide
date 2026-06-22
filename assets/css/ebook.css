@@ -78,10 +78,6 @@ p:has(> strong:first-child) {
   text-indent: 0;
 }
 
-p:has(> strong:first-child) + p {
-  text-indent: 0;
-}
-
 p:has(> strong:first-child) strong {
   color: #7b4b35;
 }

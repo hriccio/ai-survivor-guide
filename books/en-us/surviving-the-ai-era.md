@@ -66,7 +66,7 @@ If most of your value comes from repeating a sequence, you are exposed. If most 
 
 ## Automation follows repetition {#chapter-2}
 
-![A cozy workspace where workflow cards sit beside maps and calendars.](assets/images/chapters/02-context.svg)
+![A cozy workspace where repeated cards move through an automation path beside a map and calendar.](assets/images/chapters/02-automation-repetition.png)
 
 **Pocket relief:** You do not need to predict every AI breakthrough. Start by noticing repetition, because repetition is the path technology usually follows when it enters work.
 
