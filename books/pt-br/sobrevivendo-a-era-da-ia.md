@@ -156,7 +156,7 @@ O melhor padrão é parceria com limites. Use IA para acelerar volume. Use julga
 
 ## Contexto é uma vantagem humana {#chapter-7}
 
-![Uma mesa acolhedora com mapa, notas e uma janela de conversa brilhando suavemente.](assets/images/chapters/07-context-advantage.svg)
+![Uma mesa acolhedora onde mapas, notas e contexto local alimentam uma janela de conversa brilhando suavemente.](assets/images/chapters/07-context-advantage-generated.png)
 
 **Alívio de bolso:** A IA pode saber muitas coisas, mas não vive a sua vida. Seu contexto não é detalhe pequeno; é a diferença entre uma resposta genérica e uma resposta útil.
 

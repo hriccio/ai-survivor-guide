@@ -156,7 +156,7 @@ The better pattern is partnership with boundaries. Use AI to accelerate volume. 
 
 ## Context is a human advantage {#chapter-7}
 
-![A cozy table with a map, notes, and a softly glowing conversation window.](assets/images/chapters/07-context-advantage.svg)
+![A cozy table where maps, notes, and local context feed a softly glowing conversation window.](assets/images/chapters/07-context-advantage-generated.png)
 
 **Pocket relief:** AI may know a lot, but it does not live your life. Your context is not a small detail; it is the difference between a generic answer and a useful one.
 
