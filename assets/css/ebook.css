@@ -67,6 +67,25 @@ p + p {
   text-indent: 6mm;
 }
 
+p:has(> strong:first-child) {
+  background: #fff4df;
+  border: 1px solid #ead7bd;
+  border-left: 4px solid #b87450;
+  border-radius: 4mm;
+  color: #4f453b;
+  margin: 1mm 0 6mm;
+  padding: 4mm 5mm;
+  text-indent: 0;
+}
+
+p:has(> strong:first-child) + p {
+  text-indent: 0;
+}
+
+p:has(> strong:first-child) strong {
+  color: #7b4b35;
+}
+
 ol,
 ul {
   margin: 0 0 5mm 7mm;
