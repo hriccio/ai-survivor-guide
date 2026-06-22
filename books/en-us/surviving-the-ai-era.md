@@ -102,7 +102,7 @@ Understanding the economic temptation gives you better questions. Who benefits f
 
 ## When execution gets cheap, judgment becomes more valuable {#chapter-4}
 
-![A quiet workspace with balanced choices and a path toward a decision.](assets/images/chapters/03-judgment.svg)
+![A quiet workspace with option cards, criteria marks, a compass, and a path toward a decision.](assets/images/chapters/04-judgment-generated.png)
 
 **Pocket relief:** If AI makes production easier, your value does not have to vanish. It can move toward deciding what should be produced, why it matters, what quality means, and what consequences you are willing to own.
 

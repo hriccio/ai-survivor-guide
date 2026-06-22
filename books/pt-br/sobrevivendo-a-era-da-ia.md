@@ -102,7 +102,7 @@ Entender a tentação econômica cria perguntas melhores. Quem se beneficia dess
 
 ## Quando a execução fica barata, o julgamento sobe de valor {#chapter-4}
 
-![Um espaço tranquilo com escolhas equilibradas e um caminho em direção a uma decisão.](assets/images/chapters/03-judgment.svg)
+![Um espaço tranquilo com cartões de opções, marcas de critério, uma bússola e um caminho em direção a uma decisão.](assets/images/chapters/04-judgment-generated.png)
 
 **Alívio de bolso:** Se a IA torna a produção mais fácil, seu valor não precisa desaparecer. Ele pode migrar para decidir o que deve ser produzido, por que isso importa, o que qualidade significa e quais consequências você aceita assumir.
 
