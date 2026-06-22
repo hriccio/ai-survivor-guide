@@ -120,7 +120,7 @@ Por isso, "aprender IA" não pode significar apenas aprender atalhos. Atalhos pr
 
 ## Aprenda a camada acima do seu trabalho {#chapter-5}
 
-![Um canto de estudo iluminado com cadernos e um caminho circular de cartões de estudo.](assets/images/chapters/04-learning.svg)
+![Um canto de estudo iluminado com cartões em camadas, cadernos e um caminho ascendente de aprendizado.](assets/images/chapters/05-layer-above-generated.png)
 
 **Alívio de bolso:** Você não precisa abandonar sua área de uma hora para outra. O movimento mais seguro é subir uma camada: sair de apenas executar a tarefa e entender a decisão que torna essa tarefa necessária.
 

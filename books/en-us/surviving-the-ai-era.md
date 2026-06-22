@@ -120,7 +120,7 @@ This is why "learning AI" cannot mean only learning shortcuts. Shortcuts produce
 
 ## Learn the layer above your work {#chapter-5}
 
-![A bright study corner with notebooks and a circular path of study cards.](assets/images/chapters/04-learning.svg)
+![A bright study corner with layered cards, notebooks, and an upward path of learning.](assets/images/chapters/05-layer-above-generated.png)
 
 **Pocket relief:** You do not need to abandon your field overnight. The safer move is to climb one layer up: from doing the task to understanding the decision that makes the task necessary.
 
