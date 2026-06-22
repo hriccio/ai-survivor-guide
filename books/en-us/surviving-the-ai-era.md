@@ -192,7 +192,7 @@ AI should increase your ability to act, not replace your ability to understand. 
 
 ## Literacy beats premature specialization {#chapter-9}
 
-![A clear map on a desk with one area gently highlighted.](assets/images/chapters/09-literacy.svg)
+![A broad map on a warm desk with one region highlighted and learning cards nearby.](assets/images/chapters/09-literacy-generated.png)
 
 **Pocket relief:** You do not need to become an AI specialist before you can respond intelligently. First become literate enough to use, question, and evaluate the technology without panic.
 

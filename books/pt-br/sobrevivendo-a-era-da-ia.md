@@ -192,7 +192,7 @@ A IA deve aumentar sua capacidade de agir, não substituir sua capacidade de ent
 
 ## Alfabetização vence especialização prematura {#chapter-9}
 
-![Um mapa claro sobre uma mesa com uma região destacada suavemente.](assets/images/chapters/09-literacy.svg)
+![Um mapa amplo sobre uma mesa acolhedora com uma região destacada e cartões de aprendizado por perto.](assets/images/chapters/09-literacy-generated.png)
 
 **Alívio de bolso:** Você não precisa virar especialista em IA antes de responder com inteligência. Primeiro, torne-se alfabetizado o suficiente para usar, questionar e avaliar a tecnologia sem pânico.
 
