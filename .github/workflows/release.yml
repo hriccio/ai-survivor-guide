@@ -4,6 +4,12 @@ on:
   push:
     tags:
       - "v*.*.*"
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Existing or new release tag to build PDFs for, for example v0.0.0"
+        required: true
+        type: string
 
 permissions:
   contents: write
@@ -11,6 +17,8 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    env:
+      RELEASE_TAG: ${{ inputs.release_tag || github.ref_name }}
 
     steps:
       - name: Checkout
@@ -27,7 +35,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build PDFs
-        run: python scripts/build_pdf.py --version "$GITHUB_REF_NAME"
+        run: python scripts/build_pdf.py --version "$RELEASE_TAG"
 
       - name: Prepare release assets
         run: |
@@ -39,10 +47,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
-            gh release upload "$GITHUB_REF_NAME" release-assets/*.pdf --clobber
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            gh release upload "$RELEASE_TAG" release-assets/*.pdf --clobber
           else
-            gh release create "$GITHUB_REF_NAME" release-assets/*.pdf \
-              --title "$GITHUB_REF_NAME" \
-              --notes "AI Era ebook release $GITHUB_REF_NAME"
+            gh release create "$RELEASE_TAG" release-assets/*.pdf \
+              --title "$RELEASE_TAG" \
+              --notes "AI Era ebook release $RELEASE_TAG"
           fi
