@@ -174,7 +174,7 @@ A habilidade prática não é escrever palavras mágicas em um prompt. É descre
 
 ## Usar IA não é depender de IA {#chapter-8}
 
-![Um caderno, uma bússola e um pequeno dispositivo auxiliar sobre uma mesa clara.](assets/images/chapters/08-dependence.svg)
+![Um caderno, uma bússola e um pequeno cartão auxiliar brilhando sobre uma mesa clara.](assets/images/chapters/08-dependence-generated.png)
 
 **Alívio de bolso:** Você pode usar IA sem entregar sua mente. Uso saudável deixa você mais forte; dependência cega enfraquece seu senso de realidade.
 

@@ -174,7 +174,7 @@ The practical skill is not writing magic words into a prompt. It is describing t
 
 ## Using AI is not the same as depending on AI {#chapter-8}
 
-![A notebook, compass, and small assistant device on a bright desk.](assets/images/chapters/08-dependence.svg)
+![A notebook, compass, and small glowing assistant card on a bright desk.](assets/images/chapters/08-dependence-generated.png)
 
 **Pocket relief:** You can use AI without surrendering your mind. Healthy use makes you stronger; blind dependence makes your sense of reality weaker.
 
