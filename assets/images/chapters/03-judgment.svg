@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Judgment and choice</title>
+  <desc id="desc">A calm reading desk with a balance scale, option cards, a lamp, and soft greenery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff8ed"/>
+      <stop offset="1" stop-color="#eef4f5"/>
+    </linearGradient>
+    <filter id="soft" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#6f5b4a" flood-opacity=".15"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="140" y="635" width="1320" height="86" rx="43" fill="#d8b88d" opacity=".55"/>
+  <g filter="url(#soft)">
+    <rect x="230" y="280" width="330" height="230" rx="30" fill="#fffdf8"/>
+    <circle cx="395" cy="395" r="82" fill="#eef5f1"/>
+    <path d="M340 397h110" stroke="#8da79a" stroke-linecap="round" stroke-width="14"/>
+    <path d="M395 342v110" stroke="#8da79a" stroke-linecap="round" stroke-width="14"/>
+    <rect x="1065" y="265" width="250" height="330" rx="125" fill="#f5d9ad"/>
+    <rect x="1115" y="570" width="150" height="70" rx="22" fill="#9d7957"/>
+  </g>
+  <g fill="none" stroke="#6f7f74" stroke-linecap="round" stroke-width="12">
+    <path d="M805 250v315"/>
+    <path d="M665 342h280"/>
+    <path d="M708 342l-70 150"/>
+    <path d="M902 342l70 150"/>
+  </g>
+  <g filter="url(#soft)">
+    <path d="M560 510h155c-10 62-42 92-78 92s-67-30-77-92z" fill="#e7efe9"/>
+    <path d="M885 510h175c-11 62-47 92-88 92s-76-30-87-92z" fill="#fff2dc"/>
+    <rect x="694" y="610" width="225" height="36" rx="18" fill="#9f7b58"/>
+  </g>
+  <g filter="url(#soft)">
+    <rect x="470" y="170" width="170" height="104" rx="22" fill="#fdf8ef"/>
+    <rect x="720" y="150" width="170" height="104" rx="22" fill="#e4eee9"/>
+    <rect x="960" y="180" width="170" height="104" rx="22" fill="#e8eff3"/>
+  </g>
+  <g fill="none" stroke="#a66d4c" stroke-linecap="round" stroke-width="10" opacity=".55">
+    <path d="M504 221h102"/>
+    <path d="M755 201h98"/>
+    <path d="M996 231h96"/>
+  </g>
+</svg>

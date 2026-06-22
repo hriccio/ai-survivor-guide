@@ -1,20 +1,20 @@
 @page {
   size: A4;
-  margin: 24mm 20mm 26mm;
+  margin: 22mm 20mm 25mm;
 
   @bottom-center {
-    color: #6b6258;
+    color: #8a7a69;
     content: string(book-title) " · " counter(page);
     font-size: 9pt;
   }
 }
 
 :root {
-  color: #241f1a;
-  background: #fffaf2;
-  font-family: "Georgia", "Times New Roman", serif;
+  color: #2b2722;
+  background: #fff9ef;
+  font-family: "Alegreya", "Georgia", "Times New Roman", serif;
   font-size: 12pt;
-  line-height: 1.55;
+  line-height: 1.62;
 }
 
 body {
@@ -23,28 +23,36 @@ body {
 
 h1 {
   string-set: book-title content();
-  border-bottom: 2px solid #241f1a;
-  font-size: 30pt;
+  border-bottom: 2px solid #c99b6f;
+  color: #2f2a23;
+  font-size: 31pt;
   line-height: 1.05;
-  margin: 0 0 12mm;
+  margin: 0 0 10mm;
   padding-bottom: 6mm;
 }
 
 h2 {
   break-after: avoid;
-  font-size: 18pt;
-  line-height: 1.2;
+  color: #574736;
+  font-size: 19pt;
+  line-height: 1.18;
   margin: 12mm 0 4mm;
+}
+
+h2[id^="chapter-"] {
+  break-before: page;
+  margin-top: 0;
 }
 
 h3 {
   break-after: avoid;
+  color: #574736;
   font-size: 14pt;
   margin: 8mm 0 3mm;
 }
 
 p {
-  margin: 0 0 4.5mm;
+  margin: 0 0 4.8mm;
 }
 
 ol,
@@ -58,23 +66,34 @@ li {
 }
 
 blockquote {
-  border-left: 3px solid #a45b37;
-  color: #4a4038;
+  background: #fff4df;
+  border-left: 3px solid #b87450;
+  border-radius: 0 4mm 4mm 0;
+  color: #4f453b;
   font-size: 13pt;
   margin: 8mm 0;
-  padding: 2mm 0 2mm 5mm;
+  padding: 3mm 5mm;
 }
 
 code {
-  background: #f0e7da;
+  background: #f2e7d8;
   border-radius: 2px;
   font-family: "Courier New", monospace;
   font-size: 10pt;
   padding: 0 2px;
 }
 
+img {
+  border: 1px solid #eadac8;
+  border-radius: 6mm;
+  box-shadow: 0 5mm 14mm rgba(78, 61, 44, 0.12);
+  display: block;
+  margin: 0 0 9mm;
+  max-width: 100%;
+}
+
 .metadata {
-  color: #6b6258;
+  color: #8a7a69;
   font-size: 10pt;
   margin-bottom: 12mm;
 }

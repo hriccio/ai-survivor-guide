@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Continuous learning practice</title>
+  <desc id="desc">A bright study corner with notebooks, a calendar, tea, and a circular path of study cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff9ef"/>
+      <stop offset="1" stop-color="#eef5f0"/>
+    </linearGradient>
+    <filter id="soft" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#705c49" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="150" y="630" width="1300" height="92" rx="46" fill="#d9ba90" opacity=".52"/>
+  <g filter="url(#soft)">
+    <rect x="245" y="245" width="260" height="350" rx="26" fill="#fffdf8"/>
+    <rect x="285" y="300" width="180" height="34" rx="12" fill="#dce9e4"/>
+    <rect x="285" y="360" width="180" height="34" rx="12" fill="#f4d8b2"/>
+    <rect x="285" y="420" width="180" height="34" rx="12" fill="#e7eef2"/>
+    <rect x="1080" y="255" width="270" height="250" rx="28" fill="#fffdf8"/>
+    <rect x="1130" y="320" width="48" height="48" rx="10" fill="#dce9e4"/>
+    <rect x="1198" y="320" width="48" height="48" rx="10" fill="#f4d8b2"/>
+    <rect x="1266" y="320" width="48" height="48" rx="10" fill="#e7eef2"/>
+  </g>
+  <path d="M590 452c60-180 350-210 438-28 62 128-38 250-175 263-120 12-220-55-242-154" fill="none" stroke="#8da79a" stroke-linecap="round" stroke-width="20" opacity=".58"/>
+  <path d="M613 535l-42-80 86 16" fill="none" stroke="#8da79a" stroke-linecap="round" stroke-linejoin="round" stroke-width="20" opacity=".58"/>
+  <g filter="url(#soft)">
+    <rect x="655" y="260" width="175" height="108" rx="24" fill="#fff5df"/>
+    <rect x="880" y="300" width="175" height="108" rx="24" fill="#e7eef2"/>
+    <rect x="835" y="560" width="175" height="108" rx="24" fill="#fffdf8"/>
+    <rect x="595" y="525" width="175" height="108" rx="24" fill="#e3eee8"/>
+  </g>
+  <g fill="none" stroke="#a66d4c" stroke-linecap="round" stroke-width="10" opacity=".5">
+    <path d="M692 314h96"/>
+    <path d="M918 354h96"/>
+    <path d="M872 614h96"/>
+    <path d="M632 579h96"/>
+  </g>
+  <circle cx="1285" cy="610" r="54" fill="#cfe0d7"/>
+  <rect x="1238" y="655" width="95" height="44" rx="14" fill="#bd936a"/>
+</svg>

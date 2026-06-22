@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Practical literacy carried forward</title>
+  <desc id="desc">A tidy desk by a sunny window with a notebook, compass, folded guide, tea, and a gentle path of cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff9ed"/>
+      <stop offset="1" stop-color="#eef5f4"/>
+    </linearGradient>
+    <filter id="soft" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#735f4b" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1290" cy="155" r="145" fill="#f6d9a9" opacity=".62"/>
+  <rect x="142" y="628" width="1316" height="92" rx="46" fill="#d9ba90" opacity=".54"/>
+  <g filter="url(#soft)">
+    <rect x="290" y="365" width="370" height="215" rx="28" fill="#fffdf8"/>
+    <rect x="330" y="405" width="290" height="28" rx="14" fill="#dce9e4"/>
+    <rect x="330" y="462" width="235" height="22" rx="11" fill="#edd1aa"/>
+    <path d="M795 350l250-86 180 150-252 95z" fill="#fff4df"/>
+    <path d="M795 350l178 159 72-245" fill="none" stroke="#c59a70" stroke-width="8" opacity=".55"/>
+    <circle cx="940" cy="586" r="72" fill="#e7f0eb"/>
+    <circle cx="940" cy="586" r="45" fill="#fffdf8"/>
+    <path d="M940 586l36-25-18 42z" fill="#a66d4c"/>
+  </g>
+  <path d="M515 250c178-72 304-32 404 70 114 116 247 85 390-20" fill="none" stroke="#8da79a" stroke-linecap="round" stroke-width="18" opacity=".48"/>
+  <g filter="url(#soft)">
+    <rect x="470" y="220" width="150" height="90" rx="22" fill="#fffdf8"/>
+    <rect x="710" y="245" width="150" height="90" rx="22" fill="#e4eee9"/>
+    <rect x="955" y="250" width="150" height="90" rx="22" fill="#e8eef2"/>
+  </g>
+  <g fill="#89a594" opacity=".66">
+    <ellipse cx="1245" cy="575" rx="36" ry="74"/>
+    <ellipse cx="1290" cy="557" rx="34" ry="64"/>
+    <rect x="1248" y="628" width="72" height="70" rx="16" fill="#bd936a"/>
+  </g>
+</svg>
