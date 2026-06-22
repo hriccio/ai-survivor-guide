@@ -11,13 +11,14 @@
 
 :root {
   color: #2b2722;
-  background: #fff9ef;
+  background: #fffdf8;
   font-family: "Alegreya", "Georgia", "Times New Roman", serif;
   font-size: 12pt;
   line-height: 1.62;
 }
 
 body {
+  background: #fffdf8;
   margin: 0;
 }
 
@@ -52,7 +53,7 @@ h3 {
 }
 
 p {
-  margin: 0 0 4.8mm;
+  margin: 0 0 6mm;
 }
 
 ol,
