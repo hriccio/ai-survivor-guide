@@ -228,7 +228,7 @@ Isso não torna a mudança indolor. Mas torna a mudança mais legível. Quando a
 
 ## Encerramento {#closing}
 
-![Uma mesa organizada com caderno, bússola, guia dobrado e um caminho de cartões.](assets/images/chapters/05-forward.svg)
+![Uma mesa organizada com caderno fechado, bússola, guia dobrado e um caminho de cartões em direção à luz.](assets/images/chapters/closing-forward-generated.png)
 
 **Alívio de bolso:** Sobreviver à era da IA não significa vencer a máquina. Significa entender a mudança cedo o suficiente para deixar de ser passivo e começar a se reposicionar com dignidade.
 

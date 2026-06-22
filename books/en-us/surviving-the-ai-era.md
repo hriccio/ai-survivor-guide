@@ -228,7 +228,7 @@ This does not make change painless. But it makes change more legible. When the o
 
 ## Closing {#closing}
 
-![A tidy desk with a notebook, compass, folded guide, and path of cards.](assets/images/chapters/05-forward.svg)
+![A tidy desk with a closed notebook, compass, folded guide, and path of cards toward warm light.](assets/images/chapters/closing-forward-generated.png)
 
 **Pocket relief:** Surviving the AI era does not mean defeating the machine. It means understanding the change early enough to stop being passive and start repositioning with dignity.
 
