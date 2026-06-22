@@ -10,19 +10,21 @@ license: "CC BY-NC-SA 4.0"
 
 ## Um manual de bolso para entender trabalho, tecnologia e relevância humana
 
+![Uma pessoa diante de uma paisagem luminosa moldada por padrões sutis de IA.](assets/images/covers/surviving-ai-era-cover.png){.cover-image}
+
 Autor: Henrique Riccio
 
 Versão: dev
 
 Licença: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
-## Introdução
+## Introdução {#introduction}
 
 Você não precisa se tornar especialista em IA. Você precisa de alfabetização suficiente para tomar decisões conscientes em um mundo moldado por IA.
 
 Este manual é um ponto de partida. Ele organiza princípios simples para pensar sobre trabalho, automação, aprendizado e relevância humana sem depender de hype, medo ou promessas de produtividade instantânea.
 
-## Sumário
+## Sumário {#table-of-contents}
 
 1. Capítulo 1: A IA muda o custo de produzir respostas
 2. Capítulo 2: Automação não elimina contexto

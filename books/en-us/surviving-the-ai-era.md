@@ -10,19 +10,21 @@ license: "CC BY-NC-SA 4.0"
 
 ## A pocket manual for understanding work, technology, and human relevance
 
+![A person facing a bright landscape shaped by subtle AI patterns.](assets/images/covers/surviving-ai-era-cover.png){.cover-image}
+
 Author: Henrique Riccio
 
 Version: dev
 
 License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
-## Introduction
+## Introduction {#introduction}
 
 You do not need to become an AI expert. You need enough literacy to make conscious decisions in a world shaped by AI.
 
 This manual is a starting point. It organizes simple principles for thinking about work, automation, learning, and human relevance without depending on hype, fear, or instant productivity promises.
 
-## Table of Contents
+## Table of Contents {#table-of-contents}
 
 1. Chapter 1: AI changes the cost of producing answers
 2. Chapter 2: Automation does not remove context

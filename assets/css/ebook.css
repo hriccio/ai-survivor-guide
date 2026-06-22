@@ -45,6 +45,12 @@ h2[id^="chapter-"] {
   margin-top: 0;
 }
 
+h2#introduction,
+h2#table-of-contents {
+  break-before: page;
+  margin-top: 0;
+}
+
 h3 {
   break-after: avoid;
   color: #574736;
@@ -95,6 +101,16 @@ img {
   display: block;
   margin: 0 0 9mm;
   max-width: 100%;
+}
+
+img.cover-image {
+  border: 0;
+  border-radius: 8mm;
+  height: 132mm;
+  margin: 8mm 0 7mm;
+  object-fit: cover;
+  object-position: center bottom;
+  width: 100%;
 }
 
 .metadata {
