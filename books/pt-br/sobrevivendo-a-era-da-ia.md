@@ -2,7 +2,7 @@
 title: "Sobrevivendo à Era da IA"
 subtitle: "Um manual de bolso para entender trabalho, tecnologia e relevância humana"
 author: "Henrique Riccio"
-version: "dev"
+version: "{{version}}"
 license: "CC BY-NC-SA 4.0"
 ---
 
@@ -18,7 +18,7 @@ Autor: Henrique Riccio
 <p>Um construtor de sistemas que usa engenharia de software como meio para explorar autonomia, emergência, coordenação e criação de produtos de longo prazo. Este ebook faz parte do projeto @umoutrohenrique, um canal no YouTube sobre IA que não tenta ensinar IA, mas mostrar como ela pode ser útil. Canal: https://www.youtube.com/@umoutrohenrique</p>
 </div>
 
-Versão: dev
+Versão: {{version}}
 
 Licença: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 

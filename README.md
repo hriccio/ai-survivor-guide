@@ -24,7 +24,7 @@ Generated PDFs are written to `dist/`:
 - `dist/sobrevivendo-a-era-da-ia-pt-br.pdf`
 - `dist/surviving-the-ai-era-en-us.pdf`
 
-When built with a version, the version is included in the filename.
+When built on a tagged commit or in a release job, the tag is used automatically in the filename and the rendered version line.
 
 ## Local Build
 
@@ -52,7 +52,7 @@ git tag v0.1.0
 git push origin v0.1.0
 ```
 
-GitHub Actions builds both PDFs and creates a GitHub Release with the generated files attached.
+GitHub Actions should build both PDFs from the tag and create a GitHub Release with the generated files attached.
 
 ## License
 

@@ -2,7 +2,7 @@
 title: "Surviving the AI Era"
 subtitle: "A pocket manual for understanding work, technology, and human relevance"
 author: "Henrique Riccio"
-version: "dev"
+version: "{{version}}"
 license: "CC BY-NC-SA 4.0"
 ---
 
@@ -18,7 +18,7 @@ Author: Henrique Riccio
 <p>A systems builder who uses software engineering as the medium for exploring autonomy, emergence, coordination, and long-term product creation. This ebook is part of the @umoutrohenrique project, a YouTube channel about AI that doesn't try to teach AI, but rather to show how it can be useful. Channel: https://www.youtube.com/@umoutrohenrique</p>
 </div>
 
-Version: dev
+Version: {{version}}
 
 License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 

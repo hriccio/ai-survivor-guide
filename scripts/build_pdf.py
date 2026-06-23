@@ -4,6 +4,8 @@
 from __future__ import annotations
 
 import argparse
+import os
+import subprocess
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -36,6 +38,8 @@ BOOKS = {
     ),
 }
 
+VERSION_PLACEHOLDER = "{{version}}"
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Build ebook PDFs from Markdown sources.")
@@ -46,18 +50,46 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--version",
-        help="Optional release version to include in generated filenames, for example v0.1.0.",
+        help="Optional release version to include in generated filenames and rendered text, for example v0.1.0.",
     )
     return parser.parse_args()
 
 
-def markdown_to_html(source: Path) -> str:
-    if not source.exists():
-        raise FileNotFoundError(f"Missing source file: {source}")
+def resolve_version(explicit: str | None) -> str:
+    if explicit:
+        return explicit
 
-    text = source.read_text(encoding="utf-8")
+    env_ref = os.environ.get("GITHUB_REF_NAME")
+    if env_ref and env_ref.startswith("v"):
+        return env_ref
+
+    try:
+        result = subprocess.run(
+            ["git", "tag", "--points-at", "HEAD", "--sort=-version:refname"],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+    except (OSError, subprocess.CalledProcessError):
+        return "dev"
+
+    for line in result.stdout.splitlines():
+        tag = line.strip()
+        if tag.startswith("v"):
+            return tag
+
+    return "dev"
+
+
+def render_version(source_text: str, version: str) -> str:
+    if VERSION_PLACEHOLDER not in source_text:
+        return source_text
+    return source_text.replace(VERSION_PLACEHOLDER, version)
+
+
+def markdown_to_html(source_text: str, source: Path) -> str:
     body = markdown.markdown(
-        text,
+        source_text,
         extensions=[
             "markdown.extensions.extra",
             "markdown.extensions.meta",
@@ -80,16 +112,17 @@ def markdown_to_html(source: Path) -> str:
 
 
 def output_path(book: Book, version: str | None) -> Path:
-    suffix = f"-{version}" if version else ""
+    suffix = f"-{version}" if version and version != "dev" else ""
     return DIST_DIR / f"{book.output_stem}{suffix}.pdf"
 
 
-def build_book(book: Book, version: str | None) -> Path:
+def build_book(book: Book, version: str) -> Path:
     if not CSS_PATH.exists():
         raise FileNotFoundError(f"Missing CSS file: {CSS_PATH}")
 
     DIST_DIR.mkdir(parents=True, exist_ok=True)
-    html = markdown_to_html(book.source)
+    source_text = book.source.read_text(encoding="utf-8")
+    html = markdown_to_html(render_version(source_text, version), book.source)
     target = output_path(book, version)
     HTML(string=html, base_url=str(ROOT)).write_pdf(target, stylesheets=[CSS(str(CSS_PATH))])
     return target
@@ -98,9 +131,10 @@ def build_book(book: Book, version: str | None) -> Path:
 def main() -> int:
     args = parse_args()
     selected_books = [BOOKS[args.book]] if args.book else BOOKS.values()
+    version = resolve_version(args.version)
 
     for book in selected_books:
-        target = build_book(book, args.version)
+        target = build_book(book, version)
         print(target.relative_to(ROOT))
 
     return 0
