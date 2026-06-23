@@ -35,7 +35,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build PDFs
-        run: python scripts/build_pdf.py --version "$RELEASE_TAG"
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python scripts/build_pdf.py --version "$RELEASE_TAG"
+          else
+            python scripts/build_pdf.py
+          fi
 
       - name: Prepare release assets
         run: |
